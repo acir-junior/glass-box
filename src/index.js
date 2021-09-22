@@ -1,8 +1,13 @@
+import { div } from 'prelude-ls';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-ReactDOM.render(
-  <h1>aaaAAAAAaa</h1>,
-  document.getElementById('root')
+import Header from'./components/header/header'
+
+ReactDOM.render( 
+	<div>
+		<Header></Header>
+	</div>,
+	document.getElementById('root')
 );
